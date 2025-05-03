@@ -2094,7 +2094,7 @@ scheduler = StepLR(optimizer, step_size=3, gamma=0.001)
 
  #BEGIN CODE
 
-model_dir = 'ONTERU_PRABHAS_REDDY_22661/fnn'
+model_dir = 'Gowda_ShyamSundar_22875/fnn'
 
  #BEGIN CODE
 
@@ -2141,7 +2141,7 @@ UNK = "<unk>"   # token representing out of unknown (or out of vocabulary) token
 
  #BEGIN CODE
 
-folder = 'ONTERU_PRABHAS_REDDY_22661/fnn'
+folder = 'Gowda_ShyamSundar_22875/fnn'
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
  #END CODE
 # load the saved model
@@ -2601,7 +2601,7 @@ criterion = torch.nn.CrossEntropyLoss()
 # ADD YOUR CODE HERE
 # change the directory name with your SAPname and SRno
 
-model_dir = 'ONTERU_PRABHAS_REDDY_22661/rnn'
+model_dir = 'Gowda_ShyamSundar_22875/rnn'
 
 if not os.path.exists(model_dir):
     os.makedirs(model_dir)
@@ -2680,7 +2680,7 @@ UNK = "<unk>"   # token representing out of unknown (or out of vocabulary) token
 # change the directory name with your SAPname and SRno
 
  #BEGIN CODE
-folder = 'ONTERU_PRABHAS_REDDY_22661/rnn'
+folder = 'Gowda_ShyamSundar_22875/rnn'
 
  #END CODE
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
